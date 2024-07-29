@@ -1,0 +1,480 @@
+#root {
+  max-width: 100%;
+  margin: 0; 
+  padding: 0; 
+  text-align: center; 
+  justify-content: center; 
+  background-image: url('./BluredDesigner.png');
+  filter: blur(40%);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 100vh;
+  width: 100vw; 
+  /* overflow: hidden;  */
+}
+
+/*login*/
+.loginbody 
+{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form
+{
+  border-radius: 10%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form a 
+{
+  color: rgb(244, 244, 244); 
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+.form a:hover 
+{
+  color: rgb(0, 0, 0); 
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title 
+{
+  color: black;
+  border-radius: 10%;
+  text-align: center;
+  width: 40vw;
+  background-color:darkcyan;
+  padding: 2.5vw 0vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input 
+{
+  border: 1px solid rgb(172, 171, 171);
+  border-radius: 10px;
+  padding: 1vw 1vw;
+  outline: none;
+  margin: 5px;
+  background-color: aliceblue;
+  color: black;
+}
+.loginbutton:hover, .signupbutton:hover
+{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  transition:all 0.3s ease;
+}
+.loginlink, .signuplink {
+  display: flex;
+  gap: 2px; 
+}
+
+.loginlink a, signuplink a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.loginlink a:hover,signuplink a:hover {
+  background-color: #575757;
+  border-radius: 2px;
+}
+
+/*Intropage.css */
+.intropage-container {
+  display: flex;
+  height: 100vh; 
+}
+
+.intro-card {
+  flex: 0.7; 
+  background-image: url('./intro.png');
+  background-size:auto;
+  background-position: center;
+}
+
+.intro-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px;
+  background-color: darkcyan;
+}
+
+.intro-content h1, .intro-content h3 {
+  text-align: center; 
+}
+
+.loginbutton {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loginbutton:hover {
+  background-color: #ffffff;
+}
+
+
+/*signup*/
+.signupbody 
+{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupform
+{
+  border-radius: 10%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signupform a 
+{
+  color: rgb(244, 244, 244); 
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+.signupform a:hover 
+{
+  color: rgb(0, 0, 0); 
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signuptitle 
+{
+  color: black;
+  border-radius: 10%;
+  text-align: center;
+  width: 40vw;
+  background-color:darkcyan;
+  padding: 2.5vw 0vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*.home*/
+.home
+{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.navbar .logo {
+  
+  font-size: 24px;
+  margin: 0;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar .navlink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .navlink:hover {
+  background-color: #1f1e1e;
+  border-radius: 5px;
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/*home*/
+.home-container {
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color:darkcyan;
+}
+
+.home-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #1f1e1e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #008b8b;
+}
+
+.features-section{
+  text-align: center;
+  padding: 20px 20px;
+  background-color: #1f1e1e;
+  margin-bottom: 4%;
+}
+
+.features-section h2{
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.features{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature{
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.feature h3{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.feature p{
+  font-size: 16px;
+}
+
+/*Dashboard*/
+.dashboardbody{
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: darkcyan;
+  margin-top: 2.5%;
+}
+
+.dashboard-section{
+  text-align: center;
+  padding: 0px;
+  background-color: #1f1e1e;
+  margin-bottom: 4%; 
+}
+.dashboardbody h1 {
+  margin-bottom: 20px;
+}
+
+.dashboardform{
+  margin-bottom: 20px;
+}
+
+.dashboardform input {
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dashboardform button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0065d1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+table th {
+  background-color: #f8f8f8;
+  color: #000000;
+}
+
+table button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+table button:hover {
+  background-color: #c82333;
+  justify-content: space-between;
+}
+/*sidebar*/
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  color: white;
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 20px;
+  text-align: center;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  background-color: #555;
+}
+
+/*DashNavbar*/
+.dashnavbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  padding: 20px 20px;
+  color: #fff;
+}
+
+.dashnavbar .logo {
+  
+  font-size: 24px;
+  margin: 0;
+}
+
+.dashnavbar .nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.dashnavbar .navlink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.dashnavbar .navlink:hover {
+  background-color: #1f1e1e;
+  border-radius: 5px;
+}
+
+/*contactus*/
+.contact-us {
+  padding: 30px;
+  max-width: 600px;
+  margin-top: 5%;
+  margin-left: 27.5%;
+  background-color: darkcyan;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #000000;
+}
+
+/*Aboutus*/
+.about-us {
+  padding: 100px;
+  max-width: 600px;
+  margin-top: 2.5%;
+  margin-left: 22.5%;
+  background-color: darkcyan;
+}
