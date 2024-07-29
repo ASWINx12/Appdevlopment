@@ -1,6 +1,6 @@
-##STAFF SCHEDULING APPLICATION
+## STAFF SCHEDULING APPLICATION
 
-#INTRODUCTION:
+# INTRODUCTION:
 
 StaffSync is a comprehensive web application designed to streamline staff scheduling and enhance workforce management efficiency. Utilizing modern web technologies, including React for the frontend, StaffSync offers a user-friendly interface that simplifies the scheduling process for both administrators and employees. The platform features distinct dashboards for users and administrators, enabling seamless data transfer and real-time updates. Key functionalities include intuitive navigation through various pages such as Home, Login, Signup, and an introductory page, ensuring an accessible and efficient user experience. StaffSync aims to reduce administrative overhead, improve communication, and optimize staff allocation, ultimately fostering a more productive and organized work environment.
 
